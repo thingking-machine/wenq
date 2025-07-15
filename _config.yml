@@ -23,8 +23,8 @@ app:
   worker_name: qrogapi.js
 
 lm:
-  model: moonshotai/kimi-k2-instruct
-  max_completion_tokens: 8192
+  model: qwen/qwen3-32b
+  max_completion_tokens: 40960
   presence_penalty: 0.0
   temperature: 1.0
   top_p: 0.95
