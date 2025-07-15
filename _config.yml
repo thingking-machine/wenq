@@ -28,7 +28,8 @@ lm:
   presence_penalty: 0.0
   temperature: 1.0
   top_p: 0.95
-  reasoning_effort: high
+  reasoning_effort: default
+  reasoning_format: raw
 
 
 github_settings:

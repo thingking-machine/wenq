@@ -22,7 +22,11 @@
     </div>
     <div class="form-row">
       <label for="reasoning_effort">reasoning_effort:</label>
-      <input type="text" id="reasoning_effort" name="reasoning_effort" value="high">
+      <input type="text" id="reasoning_effort" name="reasoning_effort" value="{{ site.lm.reasoning_effort }}">
+    </div>
+    <div class="form-row">
+      <label for="reasoning_format">reasoning_format:</label>
+      <input type="text" id="reasoning_format" name="reasoning_format" value="{{ site.lm.reasoning_format }}">
     </div>
     <div class="form-button-row">
       <a href="#" id="navigateToMachineLink" class="styled-link-button">Thingk with these settings, Machine.</a>
